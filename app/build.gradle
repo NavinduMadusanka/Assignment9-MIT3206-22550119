@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application' version '8.5.0'
+    alias(libs.plugins.android.application)
 }
 
 android {
@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.ext.junit.runners.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -35,7 +35,7 @@ dependencies {
     implementation libs.activity
     implementation libs.constraintlayout
     testImplementation libs.junit
-    androidTestImplementation libs.junit.v121
-    androidTestImplementation libs.espresso.core.v361
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
     implementation libs.graphview
 }
