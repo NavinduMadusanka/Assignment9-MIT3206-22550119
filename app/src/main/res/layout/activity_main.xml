@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:seriesColor="#ee0000"
+        android:textStyle="bold"
         app:seriesType="line"
         android:id="@+id/graph" />
 </LinearLayout>
