@@ -1,5 +1,5 @@
 [versions]
-agp = "8.5.0"
+agp = "8.5.1"
 androidxJunit = "1.2.1"
 espressoCoreVersion = "3.6.1"
 junit = "4.13.2"
